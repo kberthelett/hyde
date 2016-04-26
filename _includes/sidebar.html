@@ -28,9 +28,15 @@
 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
+    <div class="social">
+      <a href="{{ site.social.linkedin }}">
+        <img border="0" alt="linkedin" src="/public/images/social/linkedin_icon.png"></a>
+      <a href="{{ site.social.github }}">
+        <img border="0" alt="github" src="/public/images/social/github_icon.png"></a>
+    </div>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <p><span class="sidebar-nav-item">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</span></p>
   </div>
 </div>
